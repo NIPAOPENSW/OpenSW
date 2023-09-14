@@ -87,14 +87,15 @@ class main_window(QMainWindow, QWidget, form_main):
             else:
                 req_url += "?" + params
             resp = requests.get(headers = headers, url = req_url)
+            # resp = requests.get(url = req_url)
         else:
-            resp = requests.post(headers = headers, url = req_url, params = params)
+            resp = requests.post(headers = headers, url = req_url, data = params)
         
         # print(ET.fromstring(resp.text).text)
         # print(params)
-        xml_str = xmltodict.unparse(json.loads(resp.text), pretty = True)
-        self.result_text.setText(xml_str)
-        # self.result_text.setText(resp.text)
+        # xml_str = xmltodict.unparse(json.loads(resp.text), pretty = True)
+        # self.result_text.setText(xml_str)
+        self.result_text.setText(resp.text)
 
     
 if __name__ == "__main__":
