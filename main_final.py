@@ -72,6 +72,7 @@ class main_window(QMainWindow, QWidget, form_main):
             self.csv_array_3.setEnabled(False)
             self.csv_array_4.setEnabled(False)
             self.csv_array_5.setEnabled(False)
+
         elif self.json_radio_button.isChecked():
             SIGNAL_JSON = True
             self.csv_array_1.setEnabled(False)
@@ -79,6 +80,7 @@ class main_window(QMainWindow, QWidget, form_main):
             self.csv_array_3.setEnabled(False)
             self.csv_array_4.setEnabled(False)
             self.csv_array_5.setEnabled(False)
+
         elif self.text_radio_button.isChecked():
             SIGNAL_TEXT = True
             self.csv_array_1.setEnabled(False)
@@ -86,6 +88,7 @@ class main_window(QMainWindow, QWidget, form_main):
             self.csv_array_3.setEnabled(False)
             self.csv_array_4.setEnabled(False)
             self.csv_array_5.setEnabled(False)
+
         elif self.xml_radio_button.isChecked():
             SIGNAL_XML = True
             self.csv_array_1.setEnabled(False)
@@ -184,7 +187,7 @@ class main_window(QMainWindow, QWidget, form_main):
                     self.result_json.setText(json_text)
                     contents = json_text
                     end_time = time.time()
-                    print(len(json_text.split('\n')))
+                    print("Overal Rows Count : ", len(json_text.split('\n')))
                 except:
                     self.result_json.setText(resp.text)
                     contents = resp.text
