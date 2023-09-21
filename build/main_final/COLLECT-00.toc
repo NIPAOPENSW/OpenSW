@@ -1,0 +1,3431 @@
+([('main_final.exe',
+   'd:\\BH\\0. project\\OpenSW\\build\\main_final\\main_final.exe',
+   'EXECUTABLE'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('python311.dll',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\libEGL.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libEGL.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\opengl32sw.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'BINARY'),
+  ('_socket.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\writers.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\writers.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\window\\indexers.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\window\\indexers.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\window\\aggregations.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\window\\aggregations.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\vectorized.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\vectorized.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\tzconversion.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\tzconversion.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\timezones.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\timezones.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\timestamps.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\timestamps.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\timedeltas.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\timedeltas.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\strptime.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\strptime.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\period.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\period.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\parsing.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\parsing.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\offsets.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\offsets.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\np_datetime.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\np_datetime.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\nattype.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\nattype.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\fields.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\fields.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\dtypes.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\dtypes.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\conversion.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\conversion.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\ccalendar.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\ccalendar.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\base.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslibs\\base.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslib.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\tslib.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\testing.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\testing.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\sparse.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\sparse.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\sas.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\sas.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\reshape.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\reshape.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\properties.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\properties.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\parsers.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\parsers.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\pandas_parser.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\pandas_parser.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\pandas_datetime.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\pandas_datetime.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\ops_dispatch.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\ops_dispatch.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\ops.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\ops.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\missing.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\missing.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\lib.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\lib.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\json.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\json.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\join.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\join.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\interval.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\interval.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\internals.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\internals.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\indexing.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\indexing.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\index.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\index.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\hashtable.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\hashtable.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\hashing.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\hashing.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\groupby.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\groupby.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\byteswap.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\byteswap.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\arrays.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\arrays.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\algos.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\_libs\\algos.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_umath.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\core\\_multiarray_umath.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\linalg\\_umath_linalg.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('_sqlite3.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_tests.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\core\\_multiarray_tests.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\mtrand.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\random\\mtrand.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_sfc64.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\random\\_sfc64.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_philox.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\random\\_philox.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_pcg64.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\random\\_pcg64.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_mt19937.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\random\\_mt19937.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\bit_generator.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\random\\bit_generator.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_generator.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\random\\_generator.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_bounded_integers.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_common.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\random\\_common.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\fft\\_pocketfft_internal.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy\\fft\\_pocketfft_internal.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md__mypyc.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\charset_normalizer\\md.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtGui.pyd',
+   'D:\\BH\\0. project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\QtGui.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtCore.pyd',
+   'D:\\BH\\0. project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\QtCore.pyd',
+   'EXTENSION'),
+  ('PyQt5\\sip.cp311-win_amd64.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\sip.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtWidgets.pyd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Core.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\MSVCP140.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('pandas.libs\\msvcp140-59fdf63e48138046aebeb6ddb5b4e960.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas.libs\\msvcp140-59fdf63e48138046aebeb6ddb5b4e960.dll',
+   'BINARY'),
+  ('numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-65e29aac85b9409a6008e2dc84b1cc09.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-65e29aac85b9409a6008e2dc84b1cc09.dll',
+   'BINARY'),
+  ('sqlite3.dll',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\sqlite3.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\python3.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Qml.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Qml.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5QmlModels.dll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5QmlModels.dll',
+   'BINARY'),
+  ('api-ms-win-crt-private-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-private-l1-1-0.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'd:\\BH\\0. project\\OpenSW\\build\\main_final\\base_library.zip',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Omsk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Omsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Thule',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Thule',
+   'DATA'),
+  ('pytz\\zoneinfo\\EST',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\EST',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kaliningrad',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kaliningrad',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ashgabat',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ashgabat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Busingen',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Busingen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Guam',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Guam',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Eirunepe',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Eirunepe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Sofia',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Sofia',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Libreville',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Libreville',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Resolute',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Resolute',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Eastern',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Eastern',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Johns',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Johns',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Canary',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Canary',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Bermuda',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Bermuda',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Jan_Mayen',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Jan_Mayen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Brisbane',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Brisbane',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Thimbu',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Thimbu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Chuuk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Chuuk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tel_Aviv',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tel_Aviv',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Ensenada',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ensenada',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Cocos',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Cocos',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Metlakatla',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Metlakatla',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Chita',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chita',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-4',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-4',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Luanda',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Luanda',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\El_Aaiun',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\El_Aaiun',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\San_Luis',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\San_Luis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Astrakhan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Astrakhan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Guadalcanal',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Guadalcanal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aqtobe',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aqtobe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Damascus',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Damascus',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\html_style.tpl',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\io\\formats\\templates\\html_style.tpl',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Costa_Rica',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Costa_Rica',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Makassar',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Makassar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kolkata',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kolkata',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Eastern',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Eastern',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Novosibirsk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Novosibirsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Malta',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Malta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Accra',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Accra',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Volgograd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Volgograd',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Katmandu',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Katmandu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Auckland',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Auckland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kiritimati',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kiritimati',
+   'DATA'),
+  ('pytz\\zoneinfo\\PST8PDT',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\PST8PDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Moscow',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Moscow',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Beirut',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Beirut',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ujung_Pandang',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ujung_Pandang',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\Center',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\Center',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Catamarca',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Catamarca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Qostanay',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qostanay',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-5',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-5',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vaduz',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vaduz',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Edmonton',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Edmonton',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fortaleza',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fortaleza',
+   'DATA'),
+  ('pytz\\zoneinfo\\zone1970.tab',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\zone1970.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Managua',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Managua',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tegucigalpa',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tegucigalpa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Perth',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Perth',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Truk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Truk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\Beulah',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\Beulah',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Midway',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Midway',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Karachi',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Karachi',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Scoresbysund',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Scoresbysund',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT+0',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\GMT+0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Mauritius',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mauritius',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-7',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-7',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Juneau',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Juneau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Cairo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Cairo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+8',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+8',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+5',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+5',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-6',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-6',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Shanghai',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Shanghai',
+   'DATA'),
+  ('pytz\\zoneinfo\\tzdata.zi',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\tzdata.zi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT0',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Luxembourg',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Luxembourg',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\string.tpl',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\io\\formats\\templates\\string.tpl',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qaxcontainer.cpython-311.pyc',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qaxcontainer.cpython-311.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Gaborone',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Gaborone',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Fakaofo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Fakaofo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montevideo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montevideo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Sao_Tome',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Sao_Tome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Honolulu',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Honolulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Atikokan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Atikokan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Lisbon',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Lisbon',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Macao',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Macao',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Faroe',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Faroe',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Danmarkshavn',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Danmarkshavn',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Galapagos',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Galapagos',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santarem',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santarem',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Asmara',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Asmara',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Currie',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Currie',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rankin_Inlet',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rankin_Inlet',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-8',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-8',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yerevan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yerevan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-10',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-10',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Denver',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Denver',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Novokuznetsk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Novokuznetsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vatican',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vatican',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Curacao',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Curacao',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Buenos_Aires',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Buenos_Aires',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Saigon',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Saigon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Turkey',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Turkey',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Winnipeg',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Winnipeg',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Belize',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Belize',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dili',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dili',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lome',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Amsterdam',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Amsterdam',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Greenwich',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Greenwich',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Chatham',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Chatham',
+   'DATA'),
+  ('pytz\\zoneinfo\\Israel',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Israel',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Simferopol',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Simferopol',
+   'DATA'),
+  ('pytz\\zoneinfo\\ROK',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\ROK',
+   'DATA'),
+  ('pytz\\zoneinfo\\Chile\\EasterIsland',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Chile\\EasterIsland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Blantyre',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Blantyre',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\South_Georgia',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\South_Georgia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kabul',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kabul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Jersey',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Jersey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Bougainville',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Bougainville',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Louisville',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Louisville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Rome',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Rome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-14',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-14',
+   'DATA'),
+  ('pytz\\zoneinfo\\UTC',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\UTC',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Reykjavik',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Reykjavik',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Thimphu',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Thimphu',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_es.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Paramaribo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Paramaribo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Harare',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Harare',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Martinique',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Martinique',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_it.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Istanbul',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Istanbul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tokyo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tokyo',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Khandyga',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Khandyga',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Catamarca',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Catamarca',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santo_Domingo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santo_Domingo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Chile\\Continental',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Chile\\Continental',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Wallis',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Wallis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Chisinau',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Chisinau',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Thunder_Bay',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Thunder_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pago_Pago',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pago_Pago',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Jayapura',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jayapura',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Ojinaga',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ojinaga',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Qyzylorda',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qyzylorda',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Indiana-Starke',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Indiana-Starke',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indianapolis',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indianapolis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Central',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Central',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zurich',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zurich',
+   'DATA'),
+  ('pytz\\zoneinfo\\HST',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\HST',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cuiaba',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cuiaba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Efate',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Efate',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Macau',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Macau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Factory',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Factory',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bogota',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bogota',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Goose_Bay',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Goose_Bay',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_fr.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ulaanbaatar',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ulaanbaatar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ashkhabad',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ashkhabad',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Lucia',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Lucia',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nuuk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nuuk',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+11',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+11',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\El_Salvador',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\El_Salvador',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\DumontDUrville',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\DumontDUrville',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Central',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Central',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Melbourne',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Melbourne',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Malabo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Malabo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Tasmania',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Tasmania',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qscintilla.py',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qscintilla.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Maceio',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Maceio',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Pacific',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Pacific',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\latex_longtable.tpl',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\io\\formats\\templates\\latex_longtable.tpl',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuala_Lumpur',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuala_Lumpur',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guadeloupe',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guadeloupe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Vostok',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Vostok',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Lima',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Lima',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Chongqing',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chongqing',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Prague',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Prague',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Ljubljana',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Ljubljana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Ouagadougou',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ouagadougou',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rainy_River',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rainy_River',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Creston',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Creston',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Maputo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Maputo',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vienna',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vienna',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bangkok',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bangkok',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Magadan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Magadan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Arctic\\Longyearbyen',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Arctic\\Longyearbyen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Tripoli',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Tripoli',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Petersburg',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Petersburg',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Alaska',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Alaska',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fort_Nelson',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fort_Nelson',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Marengo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Marengo',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Arizona',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Arizona',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Nicosia',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Nicosia',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tortola',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tortola',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tahiti',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tahiti',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Famagusta',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Famagusta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Minsk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Minsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yakutsk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yakutsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Addis_Ababa',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Addis_Ababa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Reunion',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Reunion',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Mawson',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Mawson',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Sitka',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Sitka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Madeira',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Madeira',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-3',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-3',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Yukon',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Yukon',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Matamoros',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Matamoros',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Araguaina',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Araguaina',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montserrat',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montserrat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Casablanca',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Casablanca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Monaco',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Monaco',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\ACT',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\ACT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Marquesas',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Marquesas',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Warsaw',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Warsaw',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guayaquil',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guayaquil',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Stockholm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Stockholm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Kralendijk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kralendijk',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Miquelon',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Miquelon',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Asuncion',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Asuncion',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Inuvik',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Inuvik',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+9',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+9',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Timbuktu',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Timbuktu',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bahia',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bahia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kosrae',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kosrae',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Budapest',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Budapest',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Guernsey',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Guernsey',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Tucuman',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Tucuman',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Taipei',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Taipei',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Seoul',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Seoul',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Port_of_Spain',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Port_of_Spain',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Kentucky\\Monticello',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kentucky\\Monticello',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Mayotte',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mayotte',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Windhoek',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Windhoek',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kanton',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kanton',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Copenhagen',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Copenhagen',
+   'DATA'),
+  ('pytz\\zoneinfo\\CST6CDT',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\CST6CDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Swift_Current',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Swift_Current',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vilnius',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vilnius',
+   'DATA'),
+  ('pytz\\zoneinfo\\Singapore',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Singapore',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nipigon',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nipigon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kirov',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kirov',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\UCT',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\UCT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cayman',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cayman',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Mendoza',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mendoza',
+   'DATA'),
+  ('certifi\\py.typed',
+   'D:\\BH\\0. project\\OpenSW\\opensw\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hebron',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hebron',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Manila',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Manila',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Singapore',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Singapore',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Noumea',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Noumea',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ko.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ko.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\South_Pole',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\South_Pole',
+   'DATA'),
+  ('pytz\\zoneinfo\\MST7MDT',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\MST7MDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dawson_Creek',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dawson_Creek',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Grand_Turk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Grand_Turk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Mariehamn',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Mariehamn',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Los_Angeles',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Los_Angeles',
+   'DATA'),
+  ('pytz\\zoneinfo\\NZ',
+   'D:\\BH\\0. project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\NZ',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tijuana',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tijuana',
+   'DATA'),
+  ('pytz\\zoneinfo\\GB',
+   'D:\\BH\\0. project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\GB',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Monrovia',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Monrovia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Majuro',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Majuro',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Monterrey',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Monterrey',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\New_Salem',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\New_Salem',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_da.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_da.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Zulu',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Zulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ulan_Bator',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ulan_Bator',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kwajalein',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kwajalein',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Tunis',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Tunis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Rangoon',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Rangoon',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtwebkit.py',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtwebkit.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rosario',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rosario',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Adelaide',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Adelaide',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kathmandu',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kathmandu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Choibalsan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Choibalsan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Boa_Vista',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Boa_Vista',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dushanbe',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dushanbe',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\La_Rioja',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\La_Rioja',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Tell_City',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Tell_City',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\latex_table.tpl',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\io\\formats\\templates\\latex_table.tpl',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Broken_Hill',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Broken_Hill',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Comoro',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Comoro',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santiago',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santiago',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Banjul',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Banjul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\San_Marino',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\San_Marino',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ust-Nera',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ust-Nera',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aden',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aden',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Stanley',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Stanley',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Kerguelen',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Kerguelen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lusaka',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lusaka',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Ciudad_Juarez',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ciudad_Juarez',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Samoa',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Samoa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Muscat',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Muscat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kinshasa',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kinshasa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Nauru',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Nauru',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Yakutat',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Yakutat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Douala',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Douala',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tashkent',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tashkent',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Jujuy',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Jujuy',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Almaty',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Almaty',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Cape_Verde',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Cape_Verde',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Vancouver',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Vancouver',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Christmas',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Christmas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Knox',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Knox',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\McMurdo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\McMurdo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Eucla',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Eucla',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Phoenix',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Phoenix',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dominica',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dominica',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montreal',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montreal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Yancowinna',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Yancowinna',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fa.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fa.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\WET',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\WET',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuching',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuching',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Enderbury',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Enderbury',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tirane',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tirane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bishkek',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bishkek',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Chicago',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Chicago',
+   'DATA'),
+  ('pytz\\zoneinfo\\Iran',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Iran',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Mbabane',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Mbabane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Dublin',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Dublin',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Atka',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Atka',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Samoa',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Samoa',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Regina',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Regina',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Anadyr',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Anadyr',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Rarotonga',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Rarotonga',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\latex.tpl',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\io\\formats\\templates\\latex.tpl',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtprintsupport.cpython-311.pyc',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtprintsupport.cpython-311.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tiraspol',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tiraspol',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Wake',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Wake',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Isle_of_Man',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Isle_of_Man',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Sarajevo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Sarajevo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Saratov',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Saratov',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Marigot',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Marigot',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Asmera',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Asmera',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Skopje',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Skopje',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tallinn',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tallinn',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Vincennes',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Vincennes',
+   'DATA'),
+  ('pytz\\zoneinfo\\Greenwich',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Greenwich',
+   'DATA'),
+  ('pytz\\zoneinfo\\MST',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\MST',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kyiv',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kyiv',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-9',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-9',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Lindeman',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Lindeman',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Davis',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Davis',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Detroit',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Detroit',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Pyongyang',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Pyongyang',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cordoba',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cordoba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dhaka',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dhaka',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Moncton',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Moncton',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+1',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+1',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+7',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+7',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Easter',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Easter',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Newfoundland',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Newfoundland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\UCT',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\UCT',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT-0',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\GMT-0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Sakhalin',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Sakhalin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Khartoum',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Khartoum',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Colombo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Colombo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Troll',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Troll',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Vientiane',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Vientiane',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Chihuahua',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Chihuahua',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Samarkand',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Samarkand',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Toronto',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Toronto',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Vevay',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Vevay',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-11',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-11',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Hobart',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Hobart',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\Acre',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\Acre',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zagreb',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zagreb',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bissau',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bissau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dubai',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dubai',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Oral',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Oral',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Palmer',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Palmer',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bujumbura',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bujumbura',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dacca',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dacca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Lord_Howe',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Lord_Howe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-12',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-12',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Maseru',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Maseru',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ca.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ca.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cayenne',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cayenne',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+2',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+2',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Azores',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Azores',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Gibraltar',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Gibraltar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Funafuti',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Funafuti',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Vincent',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Vincent',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Bucharest',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Bucharest',
+   'DATA'),
+  ('pytz\\zoneinfo\\Japan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Japan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Ndjamena',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ndjamena',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Merida',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Merida',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Whitehorse',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Whitehorse',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Menominee',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Menominee',
+   'DATA'),
+  ('pytz\\zoneinfo\\W-SU',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\W-SU',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Winamac',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Winamac',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\South',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\South',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Syowa',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Syowa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Brunei',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Brunei',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Mazatlan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mazatlan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Berlin',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Berlin',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\html.tpl',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\io\\formats\\templates\\html.tpl',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Qatar',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qatar',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_en.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_en.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Dakar',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Dakar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Poland',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Poland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Baku',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Baku',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Navajo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Navajo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Palau',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Palau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-0',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tongatapu',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tongatapu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Universal',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Universal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Johannesburg',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Johannesburg',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Calcutta',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Calcutta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Iceland',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Iceland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Jamaica',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Jamaica',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Niue',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Niue',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\West',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\West',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kiev',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kiev',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\St_Helena',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\St_Helena',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Havana',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Havana',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dawson',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dawson',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aqtau',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aqtau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Pontianak',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Pontianak',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Puerto_Rico',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Puerto_Rico',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guatemala',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guatemala',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Algiers',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Algiers',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Johnston',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Johnston',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Kentucky\\Louisville',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kentucky\\Louisville',
+   'DATA'),
+  ('pytz\\zoneinfo\\GB-Eire',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\GB-Eire',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Jerusalem',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jerusalem',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Podgorica',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Podgorica',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-1',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-1',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Antigua',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Antigua',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_he.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_he.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Oslo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Oslo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\New_York',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\New_York',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Porto-Novo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Porto-Novo',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtcharts.cpython-311.pyc',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtcharts.cpython-311.pyc',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cambridge_Bay',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cambridge_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Salta',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Salta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Nicosia',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Nicosia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Ceuta',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ceuta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Darwin',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Darwin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\West',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\West',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Harbin',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Harbin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Fiji',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Fiji',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ho_Chi_Minh',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ho_Chi_Minh',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Norfolk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Norfolk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Thomas',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Thomas',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tehran',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tehran',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Athens',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Athens',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Amman',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Amman',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_de.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_de.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\North',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\North',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Sao_Paulo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Sao_Paulo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Belfast',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Belfast',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Yellowknife',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Yellowknife',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\London',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\London',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_zh_TW.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Portugal',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Portugal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lubumbashi',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lubumbashi',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\East-Indiana',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\East-Indiana',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Barthelemy',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Barthelemy',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Madrid',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Madrid',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Cordoba',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Cordoba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Brazzaville',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Brazzaville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Conakry',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Conakry',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\East',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\East',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bahrain',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bahrain',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Belgrade',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Belgrade',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qscintilla.cpython-311.pyc',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qscintilla.cpython-311.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Maldives',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Maldives',
+   'DATA'),
+  ('pytz\\zoneinfo\\CET',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\CET',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kigali',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kigali',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Knox_IN',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Knox_IN',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nassau',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nassau',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Porto_Velho',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Porto_Velho',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\LHI',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\LHI',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kamchatka',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kamchatka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+4',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+4',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+0',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\UTC',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\UTC',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Adak',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Adak',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Nairobi',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Nairobi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+6',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+6',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Atlantic',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Atlantic',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\leapseconds',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\leapseconds',
+   'DATA'),
+  ('pytz\\zoneinfo\\ROC',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\ROC',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ar.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ar.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zaporozhye',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zaporozhye',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Mountain',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Mountain',
+   'DATA'),
+  ('pytz\\zoneinfo\\NZ-CHAT',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\NZ-CHAT',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Hawaii',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Hawaii',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Nouakchott',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Nouakchott',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\html_table.tpl',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pandas\\io\\formats\\templates\\html_table.tpl',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Apia',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Apia',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_cs.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_cs.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Egypt',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Egypt',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_gl.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gl.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Halifax',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Halifax',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ru.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ru.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Grenada',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Grenada',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Gambier',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Gambier',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Mendoza',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Mendoza',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Lower_Princes',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Lower_Princes',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Buenos_Aires',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Buenos_Aires',
+   'DATA'),
+  ('pytz\\zoneinfo\\EST5EDT',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\EST5EDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Indianapolis',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Indianapolis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Universal',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Universal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Mexico\\BajaNorte',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Mexico\\BajaNorte',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Samara',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Samara',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Mogadishu',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Mogadishu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+12',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+12',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Noronha',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Noronha',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Sydney',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Sydney',
+   'DATA'),
+  ('pytz\\zoneinfo\\Mexico\\General',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Mexico\\General',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Macquarie',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Macquarie',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtcharts.py',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtcharts.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Glace_Bay',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Glace_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tarawa',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tarawa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Pacific',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Pacific',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Godthab',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Godthab',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\San_Juan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\San_Juan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Boise',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Boise',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuwait',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuwait',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Urumqi',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Urumqi',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Punta_Arenas',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Punta_Arenas',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Atyrau',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Atyrau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Queensland',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Queensland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kampala',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kampala',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Bratislava',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Bratislava',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Aleutian',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Aleutian',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tomsk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tomsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Caracas',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Caracas',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-13',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-13',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guyana',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guyana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pohnpei',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pohnpei',
+   'DATA'),
+  ('pytz\\zoneinfo\\Libya',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Libya',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\NSW',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\NSW',
+   'DATA'),
+  ('pytz\\zoneinfo\\zone.tab',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\zone.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Manaus',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Manaus',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Antananarivo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Antananarivo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Casey',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Casey',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Porto_Acre',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Porto_Acre',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Krasnoyarsk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Krasnoyarsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tbilisi',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tbilisi',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Panama',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Panama',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Mexico_City',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mexico_City',
+   'DATA'),
+  ('pytz\\zoneinfo\\Cuba',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Cuba',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nome',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hong_Kong',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hong_Kong',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Djibouti',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Djibouti',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Chagos',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Chagos',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Anchorage',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Anchorage',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Srednekolymsk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Srednekolymsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Hermosillo',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Hermosillo',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kashgar',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kashgar',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_it.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_it.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pitcairn',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pitcairn',
+   'DATA'),
+  ('pytz\\zoneinfo\\Kwajalein',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Kwajalein',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Aruba',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Aruba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Saskatchewan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Saskatchewan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Barnaul',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Barnaul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Ulyanovsk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Ulyanovsk',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fr.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fr.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Freetown',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Freetown',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Rothera',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Rothera',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_lt.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lt.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Eire',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Eire',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebkit.cpython-311.pyc',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebkit.cpython-311.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Gaza',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Gaza',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Jakarta',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jakarta',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fort_Wayne',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fort_Wayne',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\La_Paz',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\La_Paz',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Anguilla',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Anguilla',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ar.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\ComodRivadavia',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\ComodRivadavia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Ponape',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Ponape',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Phnom_Penh',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Phnom_Penh',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Michigan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Michigan',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_es.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_es.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cancun',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cancun',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Barbados',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Barbados',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Shiprock',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Shiprock',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Iqaluit',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Iqaluit',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_da.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebenginewidgets.cpython-311.pyc',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebenginewidgets.cpython-311.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Baghdad',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Baghdad',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Mountain',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Mountain',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Jamaica',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Jamaica',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Blanc-Sablon',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Blanc-Sablon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Helsinki',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Helsinki',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Ushuaia',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Ushuaia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Canberra',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Canberra',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Zulu',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Zulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Virgin',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Virgin',
+   'DATA'),
+  ('pytz\\zoneinfo\\MET',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\MET',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Niamey',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Niamey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Port_Moresby',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Port_Moresby',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_sl.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+3',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+3',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yekaterinburg',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yekaterinburg',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Mahe',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mahe',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sv.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sv.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Riyadh',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Riyadh',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Faeroe',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Faeroe',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Recife',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Recife',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Jujuy',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Jujuy',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yangon',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yangon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+10',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+10',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Chungking',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chungking',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bahia_Banderas',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bahia_Banderas',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Paris',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Paris',
+   'DATA'),
+  ('pytz\\zoneinfo\\EET',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\EET',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Saipan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Saipan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Irkutsk',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Irkutsk',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtquickwidgets.cpython-311.pyc',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtquickwidgets.cpython-311.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\DeNoronha',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\DeNoronha',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Dar_es_Salaam',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Dar_es_Salaam',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Istanbul',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Istanbul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Brussels',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Brussels',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Pangnirtung',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Pangnirtung',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bamako',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bamako',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Campo_Grande',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Campo_Grande',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-2',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-2',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Abidjan',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Abidjan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bangui',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bangui',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rio_Branco',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rio_Branco',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT0',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\GMT0',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_uk.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_uk.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santa_Isabel',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santa_Isabel',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Coral_Harbour',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Coral_Harbour',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\GMT',
+   'DATA'),
+  ('pytz\\zoneinfo\\iso3166.tab',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\iso3166.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Andorra',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Andorra',
+   'DATA'),
+  ('pytz\\zoneinfo\\Hongkong',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Hongkong',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Vladivostok',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Vladivostok',
+   'DATA'),
+  ('pytz\\zoneinfo\\Mexico\\BajaSur',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Mexico\\BajaSur',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Uzhgorod',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Uzhgorod',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Juba',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Juba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hovd',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hovd',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Riga',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Riga',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lagos',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lagos',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Kitts',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Kitts',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Belem',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Belem',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Victoria',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Victoria',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Port-au-Prince',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Port-au-Prince',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_bg.qm',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_bg.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\PRC',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\PRC',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Yap',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Yap',
+   'DATA')],)

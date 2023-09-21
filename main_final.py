@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
 from PyQt5.QtCore import QByteArray, QXmlStreamReader, QXmlStreamWriter, QTextStream
-from opensw_v3 import Ui_MainWindow as form_main
+from main_final_ui import Ui_MainWindow as form_main
 import requests, json
 import xmltodict
 import pandas as pd

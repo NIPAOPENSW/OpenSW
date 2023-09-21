@@ -1,0 +1,63 @@
+('d:\\BH\\0. project\\OpenSW\\build\\main_final\\main_final.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True},
+ [('PYZ-00.pyz',
+   'd:\\BH\\0. project\\OpenSW\\build\\main_final\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'd:\\BH\\0. project\\OpenSW\\build\\main_final\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'd:\\BH\\0. '
+   'project\\OpenSW\\build\\main_final\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'd:\\BH\\0. '
+   'project\\OpenSW\\build\\main_final\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'd:\\BH\\0. '
+   'project\\OpenSW\\build\\main_final\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'd:\\BH\\0. '
+   'project\\OpenSW\\build\\main_final\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt5',
+   'D:\\BH\\0. '
+   'project\\OpenSW\\opensw\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py',
+   'PYSOURCE'),
+  ('main_final', 'D:\\BH\\0. project\\OpenSW\\main_final.py', 'PYSOURCE')],
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
