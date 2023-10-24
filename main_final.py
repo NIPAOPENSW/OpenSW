@@ -224,7 +224,7 @@ class main_window(QMainWindow, QWidget, form_main):
                 xmlWriter = QXmlStreamWriter(byteArray)
                 xmlWriter.setAutoFormatting(True)
                 while (not xmlReader.atEnd()):
-                    xmlReader.readNext();
+                    xmlReader.readNext()
                     if (not xmlReader.isWhitespace()):
                         xmlWriter.writeCurrentToken(xmlReader)
 
