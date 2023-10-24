@@ -250,12 +250,44 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.result_json.sizePolicy().hasHeightForWidth())
         self.result_json.setSizePolicy(sizePolicy)
-        self.result_json.setMinimumSize(QtCore.QSize(0, 850))
-        self.result_json.setMaximumSize(QtCore.QSize(700, 1500))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        self.result_json.setMinimumSize(QtCore.QSize(0, 650))
+        self.result_json.setMaximumSize(QtCore.QSize(700, 700))
         self.result_json.setSizeIncrement(QtCore.QSize(0, 1400))
-        self.result_json.setBaseSize(QtCore.QSize(0, 1400))
+        self.result_json.setBaseSize(QtCore.QSize(0, 500))
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         self.result_json.setObjectName("result_json")
-        self.horizontalLayout_2.addWidget(self.result_json)
+        self.horizontalLayout_2.addWidget(self.result_json, 0, QtCore.Qt.AlignTop)
         # self.result_csv = QtWidgets.QTextBrowser(self.verticalLayoutWidget_2)
 
         self.result_csv = QtWidgets.QTableWidget(self.verticalLayoutWidget_2)
@@ -264,12 +296,40 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.result_csv.sizePolicy().hasHeightForWidth())
         self.result_csv.setSizePolicy(sizePolicy)
-        self.result_csv.setMinimumSize(QtCore.QSize(0, 850))
-        self.result_csv.setMaximumSize(QtCore.QSize(700, 1500))
+
+
+
+
+
+
+
+
+
+
+
+        self.result_csv.setMinimumSize(QtCore.QSize(0, 650))
+        self.result_csv.setMaximumSize(QtCore.QSize(700, 700))
         self.result_csv.setSizeIncrement(QtCore.QSize(0, 1400))
-        self.result_csv.setBaseSize(QtCore.QSize(0, 1400))
+        self.result_csv.setBaseSize(QtCore.QSize(0, 500))
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         self.result_csv.setObjectName("result_csv")
-        self.horizontalLayout_2.addWidget(self.result_csv)
+        self.horizontalLayout_2.addWidget(self.result_csv, 0, QtCore.Qt.AlignTop)
         self.verticalLayout_2.addLayout(self.horizontalLayout_2)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
