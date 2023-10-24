@@ -325,7 +325,8 @@ class main_window(QMainWindow, QWidget, form_main):
     # header, request url, parameter는 초기화 되지 않음    
     def clear_button_clicked(self):
         self.result_json.setText("")
-        self.result_csv.setText("")
+        self.result_csv.setRowCount(0)
+        self.result_csv.setColumnCount(0)
     
 if __name__ == "__main__":
     app = QApplication(sys.argv)
