@@ -75,11 +75,11 @@ class main_window(QMainWindow, QWidget, form_main):
 
         elif self.json_radio_button.isChecked():
             SIGNAL_JSON = True
-            self.csv_array_1.setEnabled(False)
-            self.csv_array_2.setEnabled(False)
-            self.csv_array_3.setEnabled(False)
-            self.csv_array_4.setEnabled(False)
-            self.csv_array_5.setEnabled(False)
+            self.csv_array_1.setEnabled(True)
+            self.csv_array_2.setEnabled(True)
+            self.csv_array_3.setEnabled(True)
+            self.csv_array_4.setEnabled(True)
+            self.csv_array_5.setEnabled(True)
 
         elif self.text_radio_button.isChecked():
             SIGNAL_TEXT = True
@@ -172,22 +172,67 @@ class main_window(QMainWindow, QWidget, form_main):
         elif SIGNAL_JSON:
             try:
                 json_str = json.loads(resp.text)
+                
+                csv_param_1 = self.csv_array_1.toPlainText()
+                csv_param_2 = self.csv_array_2.toPlainText()
+                csv_param_3 = self.csv_array_3.toPlainText()
+                csv_param_4 = self.csv_array_4.toPlainText()
+                csv_param_5 = self.csv_array_5.toPlainText()
+
+                # 만약 CSV 형태로 변환 시 Optional한 부분이 있다면, 해당 부분으로 선택하는 기능
+                if csv_param_1 == '':
+                    data_len = len(json_str)
+                elif csv_param_2 == '':
+                    data_len = len(json_str[csv_param_1])
+                elif csv_param_3 == '':
+                    data_len = len(json_str[csv_param_1][csv_param_2])
+                elif csv_param_4 == '':
+                    data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3])
+                elif csv_param_5 == '':
+                    data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4])
+                else:
+                    data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4][csv_param_5])
+                
+                print("Nums Of Data:", data_len)
+                
                 json_text = json.dumps(json_str, indent=4, ensure_ascii=False)
                 self.result_json.setText(json_text)
                 contents = json_text
                 end_time = time.time()
                 
                 # 인증 검사 관련한 전체 Rows Count 부분
-                print("Overal Rows Count : ", len(json_text.split('\n')))
+                
             except:
                 try:
                     xml_str = xmltodict.parse(resp.text)
                     json_str = json.loads(json.dumps(xml_str))
+                    
+                    csv_param_1 = self.csv_array_1.toPlainText()
+                    csv_param_2 = self.csv_array_2.toPlainText()
+                    csv_param_3 = self.csv_array_3.toPlainText()
+                    csv_param_4 = self.csv_array_4.toPlainText()
+                    csv_param_5 = self.csv_array_5.toPlainText()
+
+                    # 만약 CSV 형태로 변환 시 Optional한 부분이 있다면, 해당 부분으로 선택하는 기능
+                    if csv_param_1 == '':
+                        data_len = len(json_str)
+                    elif csv_param_2 == '':
+                        data_len = len(json_str[csv_param_1])
+                    elif csv_param_3 == '':
+                        data_len = len(json_str[csv_param_1][csv_param_2])
+                    elif csv_param_4 == '':
+                        data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3])
+                    elif csv_param_5 == '':
+                        data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4])
+                    else:
+                        data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4][csv_param_5])
+                    
+                    print("Nums Of Data:", data_len)
+                    
                     json_text = json.dumps(json_str, indent=4, ensure_ascii=False)
                     self.result_json.setText(json_text)
                     contents = json_text
                     end_time = time.time()
-                    print("Overal Rows Count : ", len(json_text.split('\n')))
                 except:
                     self.result_json.setText(resp.text)
                     contents = resp.text
