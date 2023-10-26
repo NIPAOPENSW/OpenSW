@@ -312,11 +312,15 @@ class main_window(QMainWindow, QWidget, form_main):
                     df = pd.json_normalize(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4])
                 else:
                     df = pd.json_normalize(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4][csv_param_5])
-
-                self.result_csv.setRowCount(len(df.index))
+                
+                
+                data_len = len(df.index)
+                self.result_csv.setRowCount(data_len)
                 self.result_csv.setColumnCount(len(df.columns))
                 self.result_csv.setHorizontalHeaderLabels(df.columns)
-
+                
+                print("Nums Of Data:", data_len)
+                
                 for row_index, row in enumerate(df.index):
                     for col_index, column in enumerate(df.columns):
                         value = df.loc[row][column]
