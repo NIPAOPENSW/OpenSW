@@ -393,13 +393,13 @@ class Ui_MainWindow(object):
         self.json_radio_button.setText(_translate("MainWindow", "json"))
         self.text_radio_button.setText(_translate("MainWindow", "text"))
         self.download_button.setText(_translate("MainWindow", "Downloads"))
-        self.csv_array_menu.setMarkdown(_translate("MainWindow", "CSV ARRAY\n"))
+        self.csv_array_menu.setMarkdown(_translate("MainWindow", "RESULT ARRAY\n"))
 
         self.csv_array_menu.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Gulim\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">CSV ARRAY</p></body></html>"))
+"</style></head><body style=\" font-family:\'Gulim\'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">RESULT ARRAY</p></body></html>"))
         self.csv_array_1.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
