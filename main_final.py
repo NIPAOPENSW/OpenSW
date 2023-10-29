@@ -1,15 +1,58 @@
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
-from PyQt5.QtCore import QByteArray, QXmlStreamReader, QXmlStreamWriter, QTextStream
+from PyQt5.QtCore import QByteArray, QXmlStreamReader, QXmlStreamWriter, QTextStream, QThread, pyqtSignal
 from main_final_ui import Ui_MainWindow as form_main
 import requests, json
 import xmltodict
 import pandas as pd
 from datetime import datetime
 import time
+import gc
+
+
+
+class Thread(QThread):
+    response_received = pyqtSignal(tuple)
+    
+    def __init__(self, parent=None, headers = None, req_url = None, params = None, isGet = None):
+        super().__init__(parent)
+        self.headers = headers
+        self.req_url = req_url
+        self.params = params
+        self.isGet = isGet
+    
+    def run(self):
+        try:
+            if self.isGet == True:
+                if self.req_url.endswith("?"):
+                    self.req_url += self.params
+                else:
+                    self.req_url += "?" + self.params
+
+                # 인증 검사 관련한 시간 Check 부분
+                start_time = time.time()
+                print("API Call Time : ", start_time)
+                resp = requests.get(headers = self.headers, url = self.req_url)
+                complete_time = time.time()
+                print("Call End Time : ", complete_time)
+            else:
+                start_time = time.time()
+                print("API Call Time : ", start_time)
+                resp = requests.post(headers = self.headers, url = self.req_url, data = self.params)
+                complete_time = time.time()
+                print("Call End Time : ", complete_time)
+            result = [resp, complete_time]
+            self.response_received.emit(tuple(result))
+        except BaseException as e:
+            result = [e, -1]
+            self.response_received.emit(tuple(result))
+    
+
 
 class main_window(QMainWindow, QWidget, form_main):
+
+
     def __init__(self):
         super().__init__()
         self.initUI()
@@ -139,28 +182,21 @@ class main_window(QMainWindow, QWidget, form_main):
             params = str.replace("\n", "&")
         return params
     
-    # Request 실행 부분, Main 기능
-    def run(self, headers, req_url, params):
-        global contents
-        if SIGNAL_GET == True:
-            if req_url.endswith("?"):
-                req_url += params
-            else:
-                req_url += "?" + params
-
-            # 인증 검사 관련한 시간 Check 부분
-            start_time = time.time()
-            print("API Call Time : ", start_time)
-            resp = requests.get(headers = headers, url = req_url)
-            complete_time = time.time()
-            print("Call End Time : ", complete_time)
-        else:
-            start_time = time.time()
-            print("API Call Time : ", start_time)
-            resp = requests.post(headers = headers, url = req_url, data = params)
-            complete_time = time.time()
-            print("Call End Time : ", complete_time)
+    
+    def start_api_request(self, headers, req_url, params, isGet):
+        self.result_json.setText("서버와 통신중입니다.")
+        self.api_thread = Thread(self, headers, req_url, params, isGet)
+        self.api_thread.response_received.connect(self.handle_api_response)
+        self.api_thread.start()
         
+        
+        
+    def handle_api_response(self, response):
+        resp, complete_time = response
+        if complete_time == -1:
+            self.result_json.setText("서버와의 연결이 불안합니다. 잠시 후 다시 시도해주세요.\n\n" + str(resp))
+            return
+        global contents
         # 확인할 결과값을 TEXT로 설정 시 화면에 보이는 기능
         if SIGNAL_TEXT:
             self.result_json.setText(resp.text)
@@ -203,7 +239,7 @@ class main_window(QMainWindow, QWidget, form_main):
                 # 인증 검사 관련한 전체 Rows Count 부분
                 
             except:
-                try:
+                # try:
                     xml_str = xmltodict.parse(resp.text)
                     json_str = json.loads(json.dumps(xml_str))
                     
@@ -233,10 +269,10 @@ class main_window(QMainWindow, QWidget, form_main):
                     self.result_json.setText(json_text)
                     contents = json_text
                     end_time = time.time()
-                except:
-                    self.result_json.setText(resp.text)
-                    contents = resp.text
-                    end_time = time.time()
+                # except:
+                #     self.result_json.setText(resp.text)
+                #     contents = resp.text
+                #     end_time = time.time()
 
         # 확인할 결과값을 XML로 설정 시 화면에 보이는 기능
         elif SIGNAL_XML:
@@ -338,10 +374,39 @@ class main_window(QMainWindow, QWidget, form_main):
                 end_time = time.time()
         
         # 인증 검사 관련한 시간 Check 부분
-        print("Show Complete Time : ", end_time)
+        print("Data Processing Time:", end_time - complete_time)
+    
+    
+    
+    
+    
+    # Request 실행 부분, Main 기능
+    def run(self, headers, req_url, params):
+        self.clear_button_clicked()
+        # if SIGNAL_GET == True:
+        #     if req_url.endswith("?"):
+        #         req_url += params
+        #     else:
+        #         req_url += "?" + params
 
-        print("Call End to Show Complete Time : ", end_time - complete_time)
-        print("API Call to Show Complete Time : ", end_time - start_time)
+        #     # 인증 검사 관련한 시간 Check 부분
+        #     start_time = time.time()
+        #     print("API Call Time : ", start_time)
+        #     resp = requests.get(headers = headers, url = req_url)
+        #     complete_time = time.time()
+        #     print("Call End Time : ", complete_time)
+        # else:
+        #     start_time = time.time()
+        #     print("API Call Time : ", start_time)
+        #     resp = requests.post(headers = headers, url = req_url, data = params)
+        #     complete_time = time.time()
+        #     print("Call End Time : ", complete_time)
+        
+        self.start_api_request(headers, req_url, params, SIGNAL_GET)
+        
+        
+        
+        
 
     # 조회된 결과값을 다운로드 할 수 있는 기능
     # 다운로드 시 폴더를 지정하여 선택하면, 현재 날짜로 저장됨(ex: 20230919_195829.json)
