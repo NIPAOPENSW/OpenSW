@@ -14,8 +14,8 @@ Types if import:
 IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
             tracking down the missing module yourself. Thanks!
 
-missing module named pyimod02_importers - imported by F:\python\OpenSW\open-sw\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py (delayed), F:\python\OpenSW\open-sw\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py (delayed)
-missing module named 'org.python' - imported by copy (optional), xml.sax (delayed, conditional)
+missing module named pyimod02_importers - imported by C:\workspace\OpenSW\open_venv\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py (delayed), C:\workspace\OpenSW\open_venv\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py (delayed)
+missing module named org - imported by copy (optional)
 missing module named jinja2 - imported by pkg_resources._vendor.pyparsing.diagram (top-level)
 missing module named pyparsing - imported by pkg_resources._vendor.pyparsing.diagram (top-level)
 missing module named railroad - imported by pkg_resources._vendor.pyparsing.diagram (top-level)
@@ -23,7 +23,7 @@ missing module named pwd - imported by posixpath (delayed, conditional, optional
 missing module named grp - imported by shutil (delayed, optional), tarfile (optional), pathlib (delayed, optional), subprocess (delayed, conditional, optional)
 missing module named posix - imported by os (conditional, optional), posixpath (optional), shutil (conditional), importlib._bootstrap_external (conditional)
 missing module named resource - imported by posix (top-level)
-missing module named org - imported by pickle (optional)
+missing module named 'org.python' - imported by pickle (optional), xml.sax (delayed, conditional)
 missing module named termios - imported by getpass (optional), tty (top-level)
 missing module named _posixsubprocess - imported by subprocess (conditional), multiprocessing.util (delayed)
 missing module named fcntl - imported by subprocess (optional)

@@ -8,7 +8,6 @@ import xmltodict
 import pandas as pd
 from datetime import datetime
 import time
-import gc
 
 
 
@@ -42,11 +41,11 @@ class Thread(QThread):
                 resp = requests.post(headers = self.headers, url = self.req_url, data = self.params)
                 complete_time = time.time()
                 print("Call End Time : ", complete_time)
-            result = [resp, complete_time]
-            self.response_received.emit(tuple(result))
+            to_emit = (resp, start_time, complete_time)
+            self.response_received.emit(to_emit)
         except BaseException as e:
             result = [e, -1]
-            self.response_received.emit(tuple(result))
+            self.response_received.emit(to_emit)
     
 
 
@@ -192,7 +191,8 @@ class main_window(QMainWindow, QWidget, form_main):
         
         
     def handle_api_response(self, response):
-        resp, complete_time = response
+        resp, start_time, complete_time = response
+        
         if complete_time == -1:
             self.result_json.setText("서버와의 연결이 불안합니다. 잠시 후 다시 시도해주세요.\n\n" + str(resp))
             return
@@ -374,6 +374,7 @@ class main_window(QMainWindow, QWidget, form_main):
                 end_time = time.time()
         
         # 인증 검사 관련한 시간 Check 부분
+        print("Total Elapsed Time:", end_time - start_time)
         print("Data Processing Time:", end_time - complete_time)
     
     
