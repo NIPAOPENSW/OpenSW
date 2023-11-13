@@ -30,7 +30,6 @@ class Thread(QThread):
     
     def run(self):
         url, endpoint = self.urlParser(self.req_url)
-        print("param:", self.params)
         try:
             if self.isGet == True:
                 if endpoint.endswith("?"):
