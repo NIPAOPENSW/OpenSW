@@ -1,19 +1,25 @@
-import sys
-from PyQt5.QtWidgets import *
-from PyQt5 import uic
-from PyQt5.QtCore import QByteArray, QXmlStreamReader, QXmlStreamWriter, QTextStream, QThread, pyqtSignal
-from main_final_ui import Ui_MainWindow as form_main
-import requests, json
-import xmltodict
-import pandas as pd
 from datetime import datetime
+from http import client
+from main_final_ui import Ui_MainWindow as form_main
+from PyQt5.QtWidgets import *
+from PyQt5.QtCore import QByteArray 
+from PyQt5.QtCore import QXmlStreamReader
+from PyQt5.QtCore import QXmlStreamWriter
+from PyQt5.QtCore import QTextStream
+from PyQt5.QtCore import QThread
+from PyQt5.QtCore import pyqtSignal
+from urllib import parse
+import json
+import pandas as pd
+import sys
 import time
-
+import xmltodict
 
 
 class Thread(QThread):
-    response_received = pyqtSignal(tuple)
     
+    
+    response_received = pyqtSignal(tuple)
     def __init__(self, parent=None, headers = None, req_url = None, params = None, isGet = None):
         super().__init__(parent)
         self.headers = headers
@@ -21,41 +27,71 @@ class Thread(QThread):
         self.params = params
         self.isGet = isGet
     
+    
     def run(self):
+        url, endpoint = self.urlParser(self.req_url)
+        print("param:", self.params)
         try:
             if self.isGet == True:
-                if self.req_url.endswith("?"):
-                    self.req_url += self.params
+                if endpoint.endswith("?"):
+                    endpoint += self.params
                 else:
-                    self.req_url += "?" + self.params
+                    endpoint += "?" + self.params
 
-                # 인증 검사 관련한 시간 Check 부분
+                # 인증 검사 관련한 시간 Check 부분                
                 start_time = time.time()
-                print("API Call Time : ", start_time)
-                resp = requests.get(headers = self.headers, url = self.req_url)
+                connection = client.HTTPConnection(url, 80)
+                print("API Call Time :", start_time)
+                connection.request("GET", endpoint, headers=self.headers)
+                resp = connection.getresponse()
                 complete_time = time.time()
-                print("Call End Time : ", complete_time)
+                print("Call End Time :", complete_time)
             else:
+                if self.headers['Content-Type'] == 'application/json':
+                    request_body = json.dumps(self.params).encode('utf-8')
+                elif self.headers['Content-Type'] == 'application/x-www-form-urlencoded':
+                    request_body = parse.urlencode(self.params).encode('utf-8')
+                else:
+                    request_body = self.params
+                
                 start_time = time.time()
-                print("API Call Time : ", start_time)
-                resp = requests.post(headers = self.headers, url = self.req_url, data = self.params)
+                connection = client.HTTPConnection(url, 80)
+                print("API Call Time :", start_time)
+                connection.request("POST", endpoint, request_body, headers=self.headers)
+                resp = connection.getresponse()
                 complete_time = time.time()
-                print("Call End Time : ", complete_time)
-            to_emit = (resp, start_time, complete_time)
+                print("Call End Time :", complete_time)
+            
+            data = resp.read()
+            decoded_data = data.decode("utf-8")
+            to_emit = (decoded_data, start_time, complete_time)
             self.response_received.emit(to_emit)
+            
         except BaseException as e:
-            result = [e, -1]
+            to_emit = (e, -1, -1)
             self.response_received.emit(to_emit)
+            
+            
+    def urlParser(self, url):
+        if "https://" in url or "http://" in url:
+            parts = url.split('/')
+            host = '/'.join(parts[:3]).replace("http://", "").replace("https://", "")
+            path = '/' + '/'.join(parts[3:])
+            return host, path
+        else:
+            parts = url.split('/')
+            host = '/'.join(parts[:1])
+            path = '/' + '/'.join(parts[1:])
+            return host, path
     
-
-
-class main_window(QMainWindow, QWidget, form_main):
+class MainWindow(QMainWindow, QWidget, form_main):
 
 
     def __init__(self):
         super().__init__()
         self.initUI()
         self.show()
+    
     
     # 화면 구성 시 필요한 기능 설정
     def initUI(self):
@@ -79,6 +115,7 @@ class main_window(QMainWindow, QWidget, form_main):
 
         self.download_button.clicked.connect(self.download_button_clicked)
 
+
     # Radio Box 선택 기능(Get, Post)
     def get_toggled(self, checked):
         global SIGNAL_GET, SIGNAL_POST
@@ -88,6 +125,7 @@ class main_window(QMainWindow, QWidget, form_main):
         else:
             SIGNAL_GET = False
             SIGNAL_POST = True
+    
     
     # CSV 선택 시 옵션 넣을 수 있는 부분 기능 설정
     def result_method(self):
@@ -139,6 +177,7 @@ class main_window(QMainWindow, QWidget, form_main):
             self.csv_array_4.setEnabled(False)
             self.csv_array_5.setEnabled(False)
     
+    
     # Send 버튼 클릭 시 기능 동작 부분
     def send_button_clicked(self):
         global req_header
@@ -160,6 +199,7 @@ class main_window(QMainWindow, QWidget, form_main):
         except:
             self.result_json.setText("결과값을 확인할 수 있는 형식을 지정해 주세요.")
     
+    
     # Request 시 header 부분 parsing 기능
     def header_process(self, str):
         headers = {}
@@ -168,6 +208,7 @@ class main_window(QMainWindow, QWidget, form_main):
             tmp = each_header.split("=")
             headers[tmp[0]] = tmp[1]
         return headers
+
 
     # Request 시 parameter 부분 parsing 기능
     def params_process(self, str):
@@ -189,7 +230,6 @@ class main_window(QMainWindow, QWidget, form_main):
         self.api_thread.start()
         
         
-        
     def handle_api_response(self, response):
         resp, start_time, complete_time = response
         
@@ -199,15 +239,15 @@ class main_window(QMainWindow, QWidget, form_main):
         global contents
         # 확인할 결과값을 TEXT로 설정 시 화면에 보이는 기능
         if SIGNAL_TEXT:
-            self.result_json.setText(resp.text)
-            contents = resp.text
+            self.result_json.setText(resp)#.text)
+            contents = resp#.text
             end_time = time.time()
 
         # 확인할 결과값을 JSON로 설정 시 화면에 보이는 기능
         # Response 된 부분이 TEXT일 수도 있고, XML일 수도 있기 때문에, 2가지 경우를 JSON 형태로 변환
         elif SIGNAL_JSON:
             try:
-                json_str = json.loads(resp.text)
+                json_str = json.loads(resp)#.text)
                 
                 csv_param_1 = self.csv_array_1.toPlainText()
                 csv_param_2 = self.csv_array_2.toPlainText()
@@ -239,8 +279,8 @@ class main_window(QMainWindow, QWidget, form_main):
                 # 인증 검사 관련한 전체 Rows Count 부분
                 
             except:
-                # try:
-                    xml_str = xmltodict.parse(resp.text)
+                try:
+                    xml_str = xmltodict.parse(resp)#.text)
                     json_str = json.loads(json.dumps(xml_str))
                     
                     csv_param_1 = self.csv_array_1.toPlainText()
@@ -269,16 +309,16 @@ class main_window(QMainWindow, QWidget, form_main):
                     self.result_json.setText(json_text)
                     contents = json_text
                     end_time = time.time()
-                # except:
-                #     self.result_json.setText(resp.text)
-                #     contents = resp.text
-                #     end_time = time.time()
+                except:
+                    self.result_json.setText("서버와의 연결이 불안정합니다. 잠시 후 다시 시도해주세요.")
+                    contents = resp#.text
+                    end_time = time.time()
 
         # 확인할 결과값을 XML로 설정 시 화면에 보이는 기능
         elif SIGNAL_XML:
             try:
                 byteArray = QByteArray()
-                xmlReader = QXmlStreamReader(resp.text)
+                xmlReader = QXmlStreamReader(resp)#.text)
                 xmlWriter = QXmlStreamWriter(byteArray)
                 xmlWriter.setAutoFormatting(True)
                 while (not xmlReader.atEnd()):
@@ -292,8 +332,8 @@ class main_window(QMainWindow, QWidget, form_main):
                 contents = stream.readAll()
                 end_time = time.time()
             except:
-                self.result_json.setText(resp.text)
-                contents = resp.text
+                self.result_json.setText(resp)#.text)
+                contents = resp#.text
                 end_time = time.time()
         
         # 확인할 결과값을 HTML로 설정 시 화면에 보이는 기능
@@ -301,7 +341,7 @@ class main_window(QMainWindow, QWidget, form_main):
         elif SIGNAL_HTML:
             try:
                 byteArray = QByteArray()
-                xmlReader = QXmlStreamReader(resp.text)
+                xmlReader = QXmlStreamReader(resp)#.text)
                 xmlWriter = QXmlStreamWriter(byteArray)
                 xmlWriter.setAutoFormatting(True)
                 while (not xmlReader.atEnd()):
@@ -315,8 +355,8 @@ class main_window(QMainWindow, QWidget, form_main):
                 contents = stream.readAll()
                 end_time = time.time()
             except:
-                self.result_json.setText(resp.text)
-                contents = resp.text
+                self.result_json.setText(resp)#.text)
+                contents = resp#.text
                 end_time = time.time()
         
         # 확인할 결과값을 CSV로 설정 시 화면에 보이는 기능
@@ -324,11 +364,11 @@ class main_window(QMainWindow, QWidget, form_main):
         elif SIGNAL_CSV:
             try:
                 try:
-                    xml_str = xmltodict.parse(resp.text)
+                    xml_str = xmltodict.parse(resp)#.text)
                     json_str = json.loads(json.dumps(xml_str))
 
                 except:
-                    json_str = json.loads(resp.text)
+                    json_str = json.loads(resp)#.text)
                 csv_param_1 = self.csv_array_1.toPlainText()
                 csv_param_2 = self.csv_array_2.toPlainText()
                 csv_param_3 = self.csv_array_3.toPlainText()
@@ -378,35 +418,9 @@ class main_window(QMainWindow, QWidget, form_main):
         print("Data Processing Time:", end_time - complete_time)
     
     
-    
-    
-    
     # Request 실행 부분, Main 기능
     def run(self, headers, req_url, params):
-        self.clear_button_clicked()
-        # if SIGNAL_GET == True:
-        #     if req_url.endswith("?"):
-        #         req_url += params
-        #     else:
-        #         req_url += "?" + params
-
-        #     # 인증 검사 관련한 시간 Check 부분
-        #     start_time = time.time()
-        #     print("API Call Time : ", start_time)
-        #     resp = requests.get(headers = headers, url = req_url)
-        #     complete_time = time.time()
-        #     print("Call End Time : ", complete_time)
-        # else:
-        #     start_time = time.time()
-        #     print("API Call Time : ", start_time)
-        #     resp = requests.post(headers = headers, url = req_url, data = params)
-        #     complete_time = time.time()
-        #     print("Call End Time : ", complete_time)
-        
         self.start_api_request(headers, req_url, params, SIGNAL_GET)
-        
-        
-        
         
 
     # 조회된 결과값을 다운로드 할 수 있는 기능
@@ -436,6 +450,7 @@ class main_window(QMainWindow, QWidget, form_main):
             fname += ".csv"
             contents.to_csv(fname, sep = ',', na_rep = "NaN", encoding = 'utf-8-sig')
 
+
     # 결과값 초기화 부분
     # header, request url, parameter는 초기화 되지 않음    
     def clear_button_clicked(self):
@@ -443,7 +458,8 @@ class main_window(QMainWindow, QWidget, form_main):
         self.result_csv.setRowCount(0)
         self.result_csv.setColumnCount(0)
     
+    
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    win = main_window()
+    win = MainWindow()
     sys.exit(app.exec_())

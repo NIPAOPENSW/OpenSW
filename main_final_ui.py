@@ -12,6 +12,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_MainWindow(object):
+        
+        
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1456, 1216)
@@ -27,7 +29,9 @@ class Ui_MainWindow(object):
         self.gridLayout = QtWidgets.QGridLayout()
         self.gridLayout.setObjectName("gridLayout")
         self.url_text = QtWidgets.QTextEdit(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.url_text.sizePolicy().hasHeightForWidth())
@@ -65,7 +69,9 @@ class Ui_MainWindow(object):
         self.header_menu.setObjectName("header_menu")
         self.gridLayout.addWidget(self.header_menu, 0, 0, 1, 1)
         self.header_text = QtWidgets.QTextEdit(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.header_text.sizePolicy().hasHeightForWidth())
@@ -85,10 +91,14 @@ class Ui_MainWindow(object):
         self.parameter_menu.setObjectName("parameter_menu")
         self.gridLayout.addWidget(self.parameter_menu, 3, 0, 1, 1)
         self.parameter_text = QtWidgets.QTextEdit(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.parameter_text.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.parameter_text.sizePolicy().hasHeightForWidth()
+        )
         self.parameter_text.setSizePolicy(sizePolicy)
         self.parameter_text.setMinimumSize(QtCore.QSize(0, 0))
         self.parameter_text.setMaximumSize(QtCore.QSize(1250, 80))
@@ -105,7 +115,9 @@ class Ui_MainWindow(object):
         self.url_menu.setObjectName("url_menu")
         self.gridLayout.addWidget(self.url_menu, 2, 0, 1, 1)
         self.groupBox = QtWidgets.QGroupBox(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.groupBox.sizePolicy().hasHeightForWidth())
@@ -123,24 +135,33 @@ class Ui_MainWindow(object):
         self.groupBox.setObjectName("groupBox")
         self.get_radiobutton = QtWidgets.QRadioButton(self.groupBox)
         self.get_radiobutton.setGeometry(QtCore.QRect(0, 4, 48, 16))
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.get_radiobutton.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.get_radiobutton.sizePolicy().hasHeightForWidth()
+        )
         self.get_radiobutton.setSizePolicy(sizePolicy)
         self.get_radiobutton.setObjectName("get_radiobutton")
         self.post_radiobutton = QtWidgets.QRadioButton(self.groupBox)
         self.post_radiobutton.setGeometry(QtCore.QRect(60, 4, 56, 16))
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.post_radiobutton.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.post_radiobutton.sizePolicy().hasHeightForWidth()
+        )
         self.post_radiobutton.setSizePolicy(sizePolicy)
         self.post_radiobutton.setObjectName("post_radiobutton")
         self.gridLayout.addWidget(self.groupBox, 1, 0, 1, 1)
         self.verticalLayout_2.addLayout(self.gridLayout)
         self.groupBox_2 = QtWidgets.QGroupBox(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+        QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.groupBox_2.sizePolicy().hasHeightForWidth())
@@ -188,7 +209,9 @@ class Ui_MainWindow(object):
         self.csv_array_menu.setObjectName("csv_array_menu")
         self.horizontalLayout.addWidget(self.csv_array_menu)
         self.csv_array_1 = QtWidgets.QTextEdit(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.csv_array_1.sizePolicy().hasHeightForWidth())
@@ -199,7 +222,9 @@ class Ui_MainWindow(object):
         self.csv_array_1.setObjectName("csv_array_1")
         self.horizontalLayout.addWidget(self.csv_array_1)
         self.csv_array_2 = QtWidgets.QTextEdit(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.csv_array_2.sizePolicy().hasHeightForWidth())
@@ -210,7 +235,9 @@ class Ui_MainWindow(object):
         self.csv_array_2.setObjectName("csv_array_2")
         self.horizontalLayout.addWidget(self.csv_array_2)
         self.csv_array_3 = QtWidgets.QTextEdit(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.csv_array_3.sizePolicy().hasHeightForWidth())
@@ -221,7 +248,9 @@ class Ui_MainWindow(object):
         self.csv_array_3.setObjectName("csv_array_3")
         self.horizontalLayout.addWidget(self.csv_array_3)
         self.csv_array_4 = QtWidgets.QTextEdit(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.csv_array_4.sizePolicy().hasHeightForWidth())
@@ -232,7 +261,9 @@ class Ui_MainWindow(object):
         self.csv_array_4.setObjectName("csv_array_4")
         self.horizontalLayout.addWidget(self.csv_array_4)
         self.csv_array_5 = QtWidgets.QTextEdit(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.csv_array_5.sizePolicy().hasHeightForWidth())
@@ -245,88 +276,36 @@ class Ui_MainWindow(object):
         self.verticalLayout_2.addLayout(self.horizontalLayout)
 
         self.result_json = QtWidgets.QTextBrowser(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.result_json.sizePolicy().hasHeightForWidth())
         self.result_json.setSizePolicy(sizePolicy)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         self.result_json.setMinimumSize(QtCore.QSize(0, 650))
         self.result_json.setMaximumSize(QtCore.QSize(700, 700))
         self.result_json.setSizeIncrement(QtCore.QSize(0, 1400))
         self.result_json.setBaseSize(QtCore.QSize(0, 500))
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+                
         self.result_json.setObjectName("result_json")
         self.horizontalLayout_2.addWidget(self.result_json, 0, QtCore.Qt.AlignTop)
         # self.result_csv = QtWidgets.QTextBrowser(self.verticalLayoutWidget_2)
 
         self.result_csv = QtWidgets.QTableWidget(self.verticalLayoutWidget_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.result_csv.sizePolicy().hasHeightForWidth())
         self.result_csv.setSizePolicy(sizePolicy)
 
-
-
-
-
-
-
-
-
-
-
         self.result_csv.setMinimumSize(QtCore.QSize(0, 650))
         self.result_csv.setMaximumSize(QtCore.QSize(700, 700))
         self.result_csv.setSizeIncrement(QtCore.QSize(0, 1400))
         self.result_csv.setBaseSize(QtCore.QSize(0, 500))
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         self.result_csv.setObjectName("result_csv")
         self.horizontalLayout_2.addWidget(self.result_csv, 0, QtCore.Qt.AlignTop)
@@ -342,6 +321,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -430,6 +410,7 @@ class Ui_MainWindow(object):
 "</style></head><body style=\" font-family:\'Gulim\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
         self.csv_array_5.setPlaceholderText(_translate("MainWindow", "etc"))
+
 
 if __name__ == "__main__":
     import sys
