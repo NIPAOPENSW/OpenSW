@@ -14,7 +14,7 @@ Types if import:
 IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
             tracking down the missing module yourself. Thanks!
 
-missing module named pyimod02_importers - imported by C:\workspace\OpenSW_1\open-sw\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py (delayed), C:\workspace\OpenSW_1\open-sw\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py (delayed)
+missing module named pyimod02_importers - imported by C:\workspace\open_source\OpenSW\open_sw\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py (delayed), C:\workspace\open_source\OpenSW\open_sw\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py (delayed)
 missing module named 'org.python' - imported by copy (optional), xml.sax (delayed, conditional)
 missing module named jinja2 - imported by pkg_resources._vendor.pyparsing.diagram (top-level)
 missing module named pyparsing - imported by pkg_resources._vendor.pyparsing.diagram (top-level)
