@@ -73,15 +73,11 @@ class Thread(QThread):
             
     def urlParser(self, url):
         if "https://" in url or "http://" in url:
-            parts = url.split('/')
-            host = '/'.join(parts[:3]).replace("http://", "").replace("https://", "")
-            path = '/' + '/'.join(parts[3:])
-            return host, path
-        else:
-            parts = url.split('/')
-            host = '/'.join(parts[:1])
-            path = '/' + '/'.join(parts[1:])
-            return host, path
+            url = url.replace("http://", "").replace("https://", "")
+        parts = url.split('/')
+        host = '/'.join(parts[:1])
+        path = '/' + '/'.join(parts[1:])
+        return host, path
     
 class MainWindow(QMainWindow, QWidget, form_main):
 
