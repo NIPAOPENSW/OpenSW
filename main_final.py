@@ -238,15 +238,15 @@ class MainWindow(QMainWindow, QWidget, form_main):
         global contents
         # 확인할 결과값을 TEXT로 설정 시 화면에 보이는 기능
         if SIGNAL_TEXT:
-            self.result_json.setText(resp)#.text)
-            contents = resp#.text
+            self.result_json.setText(resp)
+            contents = resp
             end_time = time.time()
 
         # 확인할 결과값을 JSON로 설정 시 화면에 보이는 기능
         # Response 된 부분이 TEXT일 수도 있고, XML일 수도 있기 때문에, 2가지 경우를 JSON 형태로 변환
         elif SIGNAL_JSON:
             try:
-                json_str = json.loads(resp)#.text)
+                json_str = json.loads(resp)
                 
                 csv_param_1 = self.csv_array_1.toPlainText()
                 csv_param_2 = self.csv_array_2.toPlainText()
@@ -279,7 +279,7 @@ class MainWindow(QMainWindow, QWidget, form_main):
                 
             except:
                 try:
-                    xml_str = xmltodict.parse(resp)#.text)
+                    xml_str = xmltodict.parse(resp)
                     json_str = json.loads(json.dumps(xml_str))
                     
                     csv_param_1 = self.csv_array_1.toPlainText()
@@ -310,14 +310,14 @@ class MainWindow(QMainWindow, QWidget, form_main):
                     end_time = time.time()
                 except:
                     self.result_json.setText("서버와의 연결이 불안정합니다. 잠시 후 다시 시도해주세요.")
-                    contents = resp#.text
+                    contents = resp
                     end_time = time.time()
 
         # 확인할 결과값을 XML로 설정 시 화면에 보이는 기능
         elif SIGNAL_XML:
             try:
                 byteArray = QByteArray()
-                xmlReader = QXmlStreamReader(resp)#.text)
+                xmlReader = QXmlStreamReader(resp)
                 xmlWriter = QXmlStreamWriter(byteArray)
                 xmlWriter.setAutoFormatting(True)
                 while (not xmlReader.atEnd()):
@@ -331,8 +331,8 @@ class MainWindow(QMainWindow, QWidget, form_main):
                 contents = stream.readAll()
                 end_time = time.time()
             except:
-                self.result_json.setText(resp)#.text)
-                contents = resp#.text
+                self.result_json.setText(resp)
+                contents = resp
                 end_time = time.time()
         
         # 확인할 결과값을 HTML로 설정 시 화면에 보이는 기능
@@ -340,7 +340,7 @@ class MainWindow(QMainWindow, QWidget, form_main):
         elif SIGNAL_HTML:
             try:
                 byteArray = QByteArray()
-                xmlReader = QXmlStreamReader(resp)#.text)
+                xmlReader = QXmlStreamReader(resp)
                 xmlWriter = QXmlStreamWriter(byteArray)
                 xmlWriter.setAutoFormatting(True)
                 while (not xmlReader.atEnd()):
@@ -354,8 +354,8 @@ class MainWindow(QMainWindow, QWidget, form_main):
                 contents = stream.readAll()
                 end_time = time.time()
             except:
-                self.result_json.setText(resp)#.text)
-                contents = resp#.text
+                self.result_json.setText(resp)
+                contents = resp
                 end_time = time.time()
         
         # 확인할 결과값을 CSV로 설정 시 화면에 보이는 기능
@@ -363,11 +363,11 @@ class MainWindow(QMainWindow, QWidget, form_main):
         elif SIGNAL_CSV:
             try:
                 try:
-                    xml_str = xmltodict.parse(resp)#.text)
+                    xml_str = xmltodict.parse(resp)
                     json_str = json.loads(json.dumps(xml_str))
 
                 except:
-                    json_str = json.loads(resp)#.text)
+                    json_str = json.loads(resp)
                 
                 df = self.parcingCsv(json_str)
                 
