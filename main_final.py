@@ -73,11 +73,15 @@ class Thread(QThread):
             
     def urlParser(self, url):
         if "https://" in url or "http://" in url:
-            url = url.replace("http://", "").replace("https://", "")
-        parts = url.split('/')
-        host = '/'.join(parts[:1])
-        path = '/' + '/'.join(parts[1:])
-        return host, path
+            parts = url.split('/')
+            host = '/'.join(parts[:3]).replace("http://", "").replace("https://", "")
+            path = '/' + '/'.join(parts[3:])
+            return host, path
+        else:
+            parts = url.split('/')
+            host = '/'.join(parts[:1])
+            path = '/' + '/'.join(parts[1:])
+            return host, path
     
 class MainWindow(QMainWindow, QWidget, form_main):
 
@@ -243,7 +247,26 @@ class MainWindow(QMainWindow, QWidget, form_main):
         elif SIGNAL_JSON:
             try:
                 json_str = json.loads(resp)#.text)
-                data_len = self.getJsonLen(json_str)
+                
+                csv_param_1 = self.csv_array_1.toPlainText()
+                csv_param_2 = self.csv_array_2.toPlainText()
+                csv_param_3 = self.csv_array_3.toPlainText()
+                csv_param_4 = self.csv_array_4.toPlainText()
+                csv_param_5 = self.csv_array_5.toPlainText()
+
+                # 만약 CSV 형태로 변환 시 Optional한 부분이 있다면, 해당 부분으로 선택하는 기능
+                if csv_param_1 == '':
+                    data_len = len(json_str)
+                elif csv_param_2 == '':
+                    data_len = len(json_str[csv_param_1])
+                elif csv_param_3 == '':
+                    data_len = len(json_str[csv_param_1][csv_param_2])
+                elif csv_param_4 == '':
+                    data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3])
+                elif csv_param_5 == '':
+                    data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4])
+                else:
+                    data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4][csv_param_5])
                 
                 print("Nums Of Data:", data_len)
                 
@@ -258,7 +281,26 @@ class MainWindow(QMainWindow, QWidget, form_main):
                 try:
                     xml_str = xmltodict.parse(resp)#.text)
                     json_str = json.loads(json.dumps(xml_str))
-                    data_len = self.getJsonLen(json_str)
+                    
+                    csv_param_1 = self.csv_array_1.toPlainText()
+                    csv_param_2 = self.csv_array_2.toPlainText()
+                    csv_param_3 = self.csv_array_3.toPlainText()
+                    csv_param_4 = self.csv_array_4.toPlainText()
+                    csv_param_5 = self.csv_array_5.toPlainText()
+
+                    # 만약 CSV 형태로 변환 시 Optional한 부분이 있다면, 해당 부분으로 선택하는 기능
+                    if csv_param_1 == '':
+                        data_len = len(json_str)
+                    elif csv_param_2 == '':
+                        data_len = len(json_str[csv_param_1])
+                    elif csv_param_3 == '':
+                        data_len = len(json_str[csv_param_1][csv_param_2])
+                    elif csv_param_4 == '':
+                        data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3])
+                    elif csv_param_5 == '':
+                        data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4])
+                    else:
+                        data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4][csv_param_5])
                     
                     print("Nums Of Data:", data_len)
                     
@@ -326,26 +368,8 @@ class MainWindow(QMainWindow, QWidget, form_main):
 
                 except:
                     json_str = json.loads(resp)#.text)
-                csv_param_1 = self.csv_array_1.toPlainText()
-                csv_param_2 = self.csv_array_2.toPlainText()
-                csv_param_3 = self.csv_array_3.toPlainText()
-                csv_param_4 = self.csv_array_4.toPlainText()
-                csv_param_5 = self.csv_array_5.toPlainText()
-
-                # 만약 CSV 형태로 변환 시 Optional한 부분이 있다면, 해당 부분으로 선택하는 기능
-                if csv_param_1 == '':
-                    df = pd.json_normalize(json_str)
-                elif csv_param_2 == '':
-                    df = pd.json_normalize(json_str[csv_param_1])
-                elif csv_param_3 == '':
-                    df = pd.json_normalize(json_str[csv_param_1][csv_param_2])
-                elif csv_param_4 == '':
-                    df = pd.json_normalize(json_str[csv_param_1][csv_param_2][csv_param_3])
-                elif csv_param_5 == '':
-                    df = pd.json_normalize(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4])
-                else:
-                    df = pd.json_normalize(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4][csv_param_5])
                 
+                df = self.parcingCsv(json_str)
                 
                 data_len = len(df.index)
                 self.result_csv.setRowCount(data_len)
@@ -373,29 +397,28 @@ class MainWindow(QMainWindow, QWidget, form_main):
         # 인증 검사 관련한 시간 Check 부분
         print("Total Elapsed Time:", end_time - start_time)
         print("Data Processing Time:", end_time - complete_time)
-    
-    def getJsonLen(self, json_str):
+
+    def parcingCsv(self, json_str):
         csv_param_1 = self.csv_array_1.toPlainText()
         csv_param_2 = self.csv_array_2.toPlainText()
         csv_param_3 = self.csv_array_3.toPlainText()
         csv_param_4 = self.csv_array_4.toPlainText()
         csv_param_5 = self.csv_array_5.toPlainText()
-        data_len = 0
+
         # 만약 CSV 형태로 변환 시 Optional한 부분이 있다면, 해당 부분으로 선택하는 기능
         if csv_param_1 == '':
-            data_len = len(json_str)
+            df = pd.json_normalize(json_str)
         elif csv_param_2 == '':
-            data_len = len(json_str[csv_param_1])
+            df = pd.json_normalize(json_str[csv_param_1])
         elif csv_param_3 == '':
-            data_len = len(json_str[csv_param_1][csv_param_2])
+            df = pd.json_normalize(json_str[csv_param_1][csv_param_2])
         elif csv_param_4 == '':
-            data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3])
+            df = pd.json_normalize(json_str[csv_param_1][csv_param_2][csv_param_3])
         elif csv_param_5 == '':
-            data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4])
+            df = pd.json_normalize(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4])
         else:
-            data_len = len(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4][csv_param_5])
-            
-        return data_len
+            df = pd.json_normalize(json_str[csv_param_1][csv_param_2][csv_param_3][csv_param_4][csv_param_5])
+        return df
     
     # Request 실행 부분, Main 기능
     def run(self, headers, req_url, params):
