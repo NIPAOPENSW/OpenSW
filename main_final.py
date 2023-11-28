@@ -29,7 +29,7 @@ class Thread(QThread):
     
     
     def run(self):
-        url, endpoint = self.urlParser(self.req_url)
+        url, endpoint, isHttps = self.urlParser(self.req_url)
         try:
             if self.isGet == True:
                 if endpoint.endswith("?"):
@@ -39,7 +39,10 @@ class Thread(QThread):
 
                 # 인증 검사 관련한 시간 Check 부분                
                 start_time = time.time()
-                connection = client.HTTPConnection(url, 80)
+                if isHttps is False:
+                    connection = client.HTTPConnection(url, 80)
+                else:
+                    connection = client.HTTPSConnection(url, 443)
                 print("API Call Time :", start_time)
                 connection.request("GET", endpoint, headers=self.headers)
                 resp = connection.getresponse()
@@ -54,7 +57,10 @@ class Thread(QThread):
                     request_body = self.params
                 
                 start_time = time.time()
-                connection = client.HTTPConnection(url, 80)
+                if isHttps is False:
+                    connection = client.HTTPConnection(url, 80)
+                else:
+                    connection = client.HTTPSConnection(url, 443)
                 print("API Call Time :", start_time)
                 connection.request("POST", endpoint, request_body, headers=self.headers)
                 resp = connection.getresponse()
@@ -72,16 +78,17 @@ class Thread(QThread):
             
             
     def urlParser(self, url):
-        if "https://" in url or "http://" in url:
-            parts = url.split('/')
-            host = '/'.join(parts[:3]).replace("http://", "").replace("https://", "")
-            path = '/' + '/'.join(parts[3:])
-            return host, path
-        else:
-            parts = url.split('/')
-            host = '/'.join(parts[:1])
-            path = '/' + '/'.join(parts[1:])
-            return host, path
+        isHttps = False
+        if "https://" in url:
+            url = url.replace("https://", "")
+            isHttps = True
+        elif "http://" in url:
+            url = url.replace("http://", "")
+            isHttps = False
+        parts = url.split('/')
+        host = '/'.join(parts[:1])
+        path = '/' + '/'.join(parts[1:])
+        return host, path, isHttps
     
 class MainWindow(QMainWindow, QWidget, form_main):
 
