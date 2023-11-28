@@ -187,6 +187,10 @@ class MainWindow(QMainWindow, QWidget, form_main):
     # Send 버튼 클릭 시 기능 동작 부분
     def send_button_clicked(self):
         global req_header
+
+        headers = {}
+        req_url = ""
+        params = ""
         
         # Request 헤더 부분
         if self.header_text.toPlainText() != "":
